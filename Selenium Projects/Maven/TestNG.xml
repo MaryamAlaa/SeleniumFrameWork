@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="First suite" >
+  <test name="First test demo" verbose="2">
+  <groups>
+  <run>
+  <include name="My group"></include></run>
+  </groups>
+    <classes>
+      <class name="com.google.Maven.TestNG"/>
+    </classes>
+  </test> 
+</suite>
